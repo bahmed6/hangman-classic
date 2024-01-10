@@ -1,4 +1,4 @@
-package main
+package github.com/bahmed6/hangman-classic
 
 import (
 	"encoding/json"
@@ -17,7 +17,7 @@ type HangManData struct {
 	HangmanPositions [10]string
 }
 
-func main() {
+func github.com/bahmed6/hangman-classic() {
 	startWith := flag.String("startWith", "", "Specify a saved game file to start with.")
 	flag.Parse()
 
