@@ -1,4 +1,4 @@
-package main
+package github.com/bahmed6/hangman-classic
 import  (
 	"io/ioutil"
 	"strings"
