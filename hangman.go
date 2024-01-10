@@ -1,4 +1,4 @@
-package main
+package github.com/bahmed6/hangman-classic
 
 import (
 	"bufio"
@@ -858,7 +858,7 @@ _|_|_|_|
 }
 	
 
-func main() {
+func github.com/bahmed6/hangman-classic() {
 	if len(os.Args) != 3 {
 		fmt.Println("Usage: ./hangman words.txt hangman.txt")
 		os.Exit(1)
